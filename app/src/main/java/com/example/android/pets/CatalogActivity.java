@@ -77,10 +77,10 @@ public class CatalogActivity extends AppCompatActivity implements LoaderManager.
 
         // Create a new map of values, where column names are the keys
         ContentValues values = new ContentValues();
-        values.put(PetEntry.COLUMN_PET_NAME, "Toto");
-        values.put(PetEntry.COLUMN_PET_BREED, "Terrier");
+        values.put(PetEntry.COLUMN_PET_NAME, "Tote");
+        values.put(PetEntry.COLUMN_PET_BREED, "Sexy Cachas");
         values.put(PetEntry.COLUMN_PET_GENDER, PetEntry.GENDER_MALE);
-        values.put(PetEntry.COLUMN_PET_WEIGHT, 7);
+        values.put(PetEntry.COLUMN_PET_WEIGHT, 80);
 
         // Insert the new row returning the primary key value of the new row (id)
         Uri newUri = getContentResolver().insert(PetEntry.CONTENT_URI, values);
